@@ -13,9 +13,9 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-  it(`should have as title 'my first angular app'`, async(() => {
+  it(`should have as title 'my first app'`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('my first angular app');
+    expect(app.title).toEqual('my first app');
   }));
 });
